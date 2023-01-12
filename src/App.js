@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import Logo from "./Logo/Logo";
+import Portfolio from "./Portfolio/Portfolio";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [pageLoad, setPageLoad] = useState(false);
+  setTimeout(() => {
+    setPageLoad(true);
+  }, 1800);
+  return pageLoad ? <Portfolio /> : <Logo />;
 }
 
 export default App;
