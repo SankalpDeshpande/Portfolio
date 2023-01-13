@@ -8,12 +8,12 @@ export default function Navbar() {
     <div className="navbar">
       <div className="logo">
         <a href="/Portfolio">
-          <img src={S} alt="logo" width={70} height={60} />
+          <img src={S} alt="logo" width={70} height={70} />
         </a>
       </div>
       <div className="navItems">
         <div className="navitem">
-          <a href="#about" >01. About</a>
+          <a href="#about">01. About</a>
         </div>
         <div className="navitem">
           <a href="#experience">02. Experience</a>
