@@ -1,5 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
+
+html,
+body{
+  padding:0;
+  margin:0;
+  background:#03181e;
 }
 
+a:hover img{
+  transform: scale(1.2);
+}

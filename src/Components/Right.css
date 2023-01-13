@@ -1,0 +1,29 @@
+.right{
+    position: fixed;
+    right: 0;
+    float: right;
+    width: 80px;
+    height: 100%;
+    text-align: justify;
+}
+.gmail{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-top: 200px;
+}
+#gmail{
+    text-decoration: none;
+    color: #ccd6f6;
+}
+
+#gmail:hover{
+    font-family: cursive;
+}
+.rightline {
+    border-left: 3px solid #ccd6f6;
+    height: 180px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+

@@ -1,0 +1,11 @@
+.content{
+    position: relative;
+    text-align: justify;
+    border: 1px solid rgba(204, 204, 204, 0.32);
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    margin-top: 1px ;
+    margin-left: 150px;
+    margin-right: 120px;
+}

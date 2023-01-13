@@ -1,0 +1,13 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: #03181e;
+    color: #ccd6f6
+}
+
+.mainContent{
+    display: flex;
+    height:100vh;
+}

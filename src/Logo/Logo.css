@@ -1,32 +1,29 @@
-html,
-body{
-  padding:0;
-  margin:0;
-  width:100%;height:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  background:#03181e;
-}
-/* #131921; */
+
 .container{
   display:flex;
   justify-content:center;
   align-items:center;
 }
+.logoParent{
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  width:100%;height:100%;
+  margin-top: 20%;
+}
 
-div{
+div.icon{
   position:absolute;
   width:90px;height:51px;
 }
 
-div:nth-of-type(2){transform:rotate(60deg)}
-div:nth-of-type(3){transform:rotate(-60deg)}
+div.icon:nth-of-type(2){transform:rotate(60deg)}
+div.icon:nth-of-type(3){transform:rotate(-60deg)}
 
 
-div div{width:100%;height:100%;position:relative}
+div.icon div{width:100%;height:100%;position:relative}
 
-div div span{
+div.icon div span{
   position:absolute;
   width:4px;height:0%;
   background:#8def8d;z-index:999999;
@@ -101,6 +98,6 @@ div div span{
 .letter{
   text-align: center;
   font-size: 45px;
-  color: #66ff99;
+  color: #ccd6f6;
   font-weight: bolder;
-}
+}  

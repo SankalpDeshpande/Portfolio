@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 50%;
+    margin-left: 35px;
+}
+
+.navItems{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.resume{
+    padding-right: 40px;
+}

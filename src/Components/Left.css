@@ -1,0 +1,30 @@
+.left{
+    position: fixed;
+    left: 0px;
+    float: left;
+    width: 100px;
+    height: 100%;
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconDiv{
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+}
+
+.icon-left{
+    margin-left: 5px;
+}
+
+.leftline{
+    border-left: 3px solid #ccd6f6;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+}
