@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <a href="/">
+        <a href="/Portfolio">
           <img src={S} alt="logo" width={70} height={60} />
         </a>
       </div>
