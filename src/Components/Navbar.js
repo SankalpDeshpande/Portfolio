@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import S from "../assets/S.png";
+import Resume from "../assets/Sankalp_B_Deshpande_resume.pdf";
 
 export default function Navbar() {
   return (
@@ -12,19 +13,21 @@ export default function Navbar() {
       </div>
       <div className="navItems">
         <div className="navitem">
-          <p>01. About</p>
+          <a href="#about" >01. About</a>
         </div>
         <div className="navitem">
-          <p>02. Experience</p>
+          <a href="#experience">02. Experience</a>
         </div>
         <div className="navitem">
-          <p>03. Work</p>
+          <a href="#work">03. Work</a>
         </div>
         <div className="navitem">
-          <p>04. Contact</p>
+          <a href="#contact">04. Contact</a>
         </div>
-        <div className="resume">
-          <p>Resume</p>
+        <div className="navitem">
+          <a href={Resume} className="button" target="_blank">
+            Resume
+          </a>
         </div>
       </div>
     </div>

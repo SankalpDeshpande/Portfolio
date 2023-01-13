@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    padding: 20px 0;
 }
 .logo{
     width: 50%;
@@ -12,6 +13,18 @@
     justify-content: space-between;
 }
 
-.resume{
+.navitem{
+    padding-top: 15px;
     padding-right: 40px;
 }
+
+.button{
+    text-decoration: none;
+    color: #64ffda;;
+    border: 1px solid #64ffda;;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hello{
+    padding: 15px 40px;
+  }

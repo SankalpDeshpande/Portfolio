@@ -26,7 +26,8 @@ div.icon div{width:100%;height:100%;position:relative}
 div.icon div span{
   position:absolute;
   width:4px;height:0%;
-  background:#8def8d;z-index:999999;
+  background:#8def8d;
+  z-index:999999;
 }
 
 .h1{left:0;
