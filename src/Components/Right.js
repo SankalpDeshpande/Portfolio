@@ -9,7 +9,7 @@ export default function Right() {
           sankalpsmg@gmail.com
         </a>
       </div>
-      <div class="rightline"></div>
+      <div className="rightLine"></div>
     </div>
   );
 }

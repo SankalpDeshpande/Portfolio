@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Logo from "./Logo/Logo";
 import Portfolio from "./Portfolio/Portfolio";
+import React from 'react';
 
 function App() {
   const [pageLoad, setPageLoad] = useState(false);

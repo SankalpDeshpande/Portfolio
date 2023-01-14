@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import "./Navbar.css";
 import S from "../assets/S.png";
 import Resume from "../assets/Sankalp_B_Deshpande_resume.pdf";
@@ -52,7 +52,7 @@ export default function Navbar() {
             </a>
           </div>
           <div className="navitem">
-            <a href={Resume} className="button" target="_blank">
+            <a href={Resume} className="button">
               Resume
             </a>
           </div>

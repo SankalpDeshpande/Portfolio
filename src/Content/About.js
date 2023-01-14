@@ -15,7 +15,7 @@ export default function About() {
           <br />
           <br />
           Fast-forward to today, and I’ve had the privilege of working at
-          <a href="https://www.infosys.com/" target="_blank">
+          <a href="https://www.infosys.com/">
             <b> Infosys </b>
           </a>
           with various Insurance domain clients. My main focus these days is

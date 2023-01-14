@@ -35,7 +35,7 @@ export default function Left() {
           <img src={linkedin} alt="logo" width={40} height={40} />
         </a>
       </div>
-      <div class="leftline"></div>
-    </div>
+      <div className="leftline"></div>
+    </div >
   );
 }
