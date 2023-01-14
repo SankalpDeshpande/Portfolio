@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e3973a94.css",
-    "main.js": "/Portfolio/static/js/main.3f066fbb.js",
+    "main.js": "/Portfolio/static/js/main.e171a7f6.js",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.1d8258917bc248f59263.png",
     "static/media/san.jpg": "/Portfolio/static/media/san.74f74f4b5f3d6d95e635.jpg",
-    "static/media/Sankalp_B_Deshpande_resume.pdf": "/Portfolio/static/media/Sankalp_B_Deshpande_resume.bbbe5265d9429d7da85d.pdf",
+    "static/media/Sankalp_B_Deshpande_resume.pdf": "/Portfolio/static/media/Sankalp_B_Deshpande_resume.0f044a16fdd85402ca2d.pdf",
     "index.html": "/Portfolio/index.html",
     "main.e3973a94.css.map": "/Portfolio/static/css/main.e3973a94.css.map",
-    "main.3f066fbb.js.map": "/Portfolio/static/js/main.3f066fbb.js.map"
+    "main.e171a7f6.js.map": "/Portfolio/static/js/main.e171a7f6.js.map"
   },
   "entrypoints": [
     "static/css/main.e3973a94.css",
-    "static/js/main.3f066fbb.js"
+    "static/js/main.e171a7f6.js"
   ]
 }
