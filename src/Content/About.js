@@ -4,8 +4,9 @@ import san from "../assets/san.jpg";
 export default function About() {
   return (
     <div id="about">
-      <h1>01. About Me</h1>
-      <div className="line"></div>
+      <br/>
+      <br/>
+      <h1>01. About Me<div className="line"></div></h1>  
       <div className="aboutcontent">
         <p>
           Hello! My name is Sankalp and I enjoy creating things that live on the
