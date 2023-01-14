@@ -10,7 +10,6 @@ export default function Left() {
       <div className="iconDiv">
         <a
           href="https://github.com/SankalpDeshpande"
-          className="icon-left-first"
         >
           <img src={github} alt="logo" width={50} height={50} />
         </a>

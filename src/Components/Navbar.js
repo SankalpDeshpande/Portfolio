@@ -13,16 +13,16 @@ export default function Navbar() {
       </div>
       <div className="navItems">
         <div className="navitem">
-          <a href="#about">01. About</a>
+          <a href="#about"><span className="number">01. </span>About</a>
         </div>
         <div className="navitem">
-          <a href="#experience">02. Experience</a>
+          <a href="#experience"><span className="number">02. </span>Experience</a>
         </div>
         <div className="navitem">
-          <a href="#work">03. Work</a>
+          <a href="#work"><span className="number">03. </span>Work</a>
         </div>
         <div className="navitem">
-          <a href="#contact">04. Contact</a>
+          <a href="#contact"><span className="number">04. </span>Contact</a>
         </div>
         <div className="navitem">
           <a href={Resume} className="button" target="_blank">

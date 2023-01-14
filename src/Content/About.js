@@ -6,7 +6,7 @@ export default function About() {
     <div id="about">
       <br/>
       <br/>
-      <h1>01. About Me<div className="line"></div></h1>  
+      <h1><span className="number">01. </span>About Me<div className="line"></div></h1>  
       <div className="aboutcontent">
         <p>
           Hello! My name is Sankalp and I enjoy creating things that live on the
